@@ -10,7 +10,6 @@ namespace BLL.DTOs
     public class ProductOrderDetailsDTO : ProductDTO
     {
         public List<OrderDTO> Orders { get; set; }
-/*        public  User User { get; set; }*/
         public ProductOrderDetailsDTO()
         {
             Orders = new List<OrderDTO>();

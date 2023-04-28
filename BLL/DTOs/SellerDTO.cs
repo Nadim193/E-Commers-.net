@@ -20,8 +20,10 @@ namespace BLL.DTOs
         [StringLength(15)]
         public string Email { get; set; }
         [Required]
+        [StringLength(15)]
         public string PhoneNumber { get; set; }
         [Required]
+        [StringLength(15)]
         public string NidNumber { get; set; }
     }
 }

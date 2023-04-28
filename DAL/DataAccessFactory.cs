@@ -12,7 +12,7 @@ namespace DAL
     public  class DataAccessFactory
     {
 
-        public static IRepo<Seller , string, Seller> SellerData()
+        public static IRepo<Seller , string, bool> SellerData()
         {
             return new SellerRepo();
         }
@@ -25,7 +25,7 @@ namespace DAL
         {
             return new OrderRepo();
         }
-        public static IRepoUsers<User, int, string, decimal, User> UserData()
+        public static IRepoUsers<User, int, string, decimal, bool> ManageUserData()
         {
             return new UserRepo();
         }
@@ -37,9 +37,41 @@ namespace DAL
         {
             return new ManageOrderRepo();
         }
-        public static IRepo<Review, int, Review> ManageReviewData()
+        public static IRepo<Review, int, bool> ManageReviewData()
         {
             return new ManageReviewRepo();
+        }
+        public static IRepoCart<Cart, int, int, Cart> ManageCartData()
+        {
+            return new ManageCartRepo();
+        }
+        public static IRepoCart<User_Order, int, int, bool> ManageUserOrderData()
+        {
+            return new ManageUserOrderRepo();
+        }
+        public static IRepoCart<ProductOrder, int, int, bool> ManageProductOrderData()
+        {
+            return new ManageProductOrderRepo();
+        }
+        public static IRepo<FeedBack, int, bool> ManageFeedBackData()
+        {
+            return new ManageFeedBackRepo();
+        }
+        public static IRepo<Token, string, bool> TokenData()
+        {
+            return new TokenRepo();
+        }
+        public static IAuth<bool> AuthData()
+        {
+            return new SellerRepo();
+        }
+        public static IAuth<bool> UserAuthData()
+        {
+            return new UserRepo();
+        }
+        public static IChange ChangePassData()
+        {
+            return new SellerRepo();
         }
     }
 }

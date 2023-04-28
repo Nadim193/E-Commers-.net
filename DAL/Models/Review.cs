@@ -23,6 +23,12 @@ namespace DAL.Models
         public int pid { get; set; }
         [ForeignKey("pid")]
         public Product product { get; set; }
+        public virtual ICollection<FeedBack> FeedBacks { get; set; }
 
-    }
+        public Review()
+        {
+            FeedBacks = new List<FeedBack>();
+        }
+
+    } 
 }

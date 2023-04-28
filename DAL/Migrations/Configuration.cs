@@ -111,6 +111,16 @@
                     pid = random.Next(1, 9),
                 });
             }
+            for (int i = 1; i <= 50; i++)
+            {
+                context.FeedBacks.AddOrUpdate(new Models.FeedBack
+                {
+                    Id = i,
+                    Date = DateTime.Now,
+                    ReviewFeedBack = Guid.NewGuid().ToString().Substring(0, 30),
+                    rid = random.Next(1, 49),
+                });
+            }
         }
     }
 }

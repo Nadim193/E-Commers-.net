@@ -20,5 +20,7 @@ namespace DAL
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<ProductOrder> ProductOrders { get; set; }
+        public DbSet<FeedBack> FeedBacks { get; set; }
+        public DbSet<Token> Tokens { get; set; }
     }
 }

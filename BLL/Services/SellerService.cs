@@ -40,7 +40,7 @@ namespace BLL.Services
         }
 
 
-        public static Seller Create(SellerDTO seller)
+        public static bool Create(SellerDTO seller)
         {
             var cfg = new MapperConfiguration(c =>
             {
@@ -49,10 +49,11 @@ namespace BLL.Services
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<Seller>(seller);
             var res = DataAccessFactory.SellerData().Create(mapped);
-            return mapped;
+            if (res) return true;
+            return false;
         }
 
-        public static Seller Update(SellerDTO seller)
+        public static bool Update(SellerDTO seller)
         {
             var cfg = new MapperConfiguration(c =>
             {
@@ -62,11 +63,21 @@ namespace BLL.Services
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<Seller>(seller);
             var res = DataAccessFactory.SellerData().Create(mapped);
-            return mapped;
+            if (res) return true;
+            return false;
         }
         public static bool Delete(string Sname)
         {
             return DataAccessFactory.SellerData().Delete(Sname);
+        }
+        public static bool ChangePassword(string Sname, ChangePasswordDTO changePasswordDTO)
+        {
+            var seller = DataAccessFactory.SellerData().Read(Sname);
+            if (changePasswordDTO.CurrentPassword == seller.Password)
+            {
+                return DataAccessFactory.ChangePassData().ChangePassword(seller.Sname, changePasswordDTO.Password);
+            }
+            return false;
         }
     }
 }

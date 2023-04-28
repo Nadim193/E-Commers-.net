@@ -68,17 +68,38 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IChange.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Interfaces\IRepoCart.cs" />
     <Compile Include="Interfaces\IRepoOrder.cs" />
     <Compile Include="Interfaces\IRepoUsers.cs" />
     <Compile Include="Migrations\202304261903354_FixAll.cs" />
     <Compile Include="Migrations\202304261903354_FixAll.designer.cs">
       <DependentUpon>202304261903354_FixAll.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304280810146_AddFeedBackTable.cs" />
+    <Compile Include="Migrations\202304280810146_AddFeedBackTable.designer.cs">
+      <DependentUpon>202304280810146_AddFeedBackTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304280958531_AddTokenTable.cs" />
+    <Compile Include="Migrations\202304280958531_AddTokenTable.designer.cs">
+      <DependentUpon>202304280958531_AddTokenTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304280959405_fixTokenTable.cs" />
+    <Compile Include="Migrations\202304280959405_fixTokenTable.designer.cs">
+      <DependentUpon>202304280959405_fixTokenTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304281008105_modyfiTokenTable.cs" />
+    <Compile Include="Migrations\202304281008105_modyfiTokenTable.designer.cs">
+      <DependentUpon>202304281008105_modyfiTokenTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\FeedBack.cs" />
     <Compile Include="Models\ProductOrder.cs" />
     <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\User_Order.cs" />
     <Compile Include="PcBuildContext.cs" />
@@ -86,13 +107,18 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Seller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\ManageCartRepo.cs" />
+    <Compile Include="Repos\ManageFeedBackRepo.cs" />
     <Compile Include="Repos\ManageOrderRepo.cs" />
+    <Compile Include="Repos\ManageProductOrderRepo.cs" />
     <Compile Include="Repos\ManageProductRepo.cs" />
     <Compile Include="Repos\ManageReviewRepo.cs" />
+    <Compile Include="Repos\ManageUserOrderRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\SellerRepo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +128,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202304261903354_FixAll.resx">
       <DependentUpon>202304261903354_FixAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304280810146_AddFeedBackTable.resx">
+      <DependentUpon>202304280810146_AddFeedBackTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304280958531_AddTokenTable.resx">
+      <DependentUpon>202304280958531_AddTokenTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304280959405_fixTokenTable.resx">
+      <DependentUpon>202304280959405_fixTokenTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281008105_modyfiTokenTable.resx">
+      <DependentUpon>202304281008105_modyfiTokenTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

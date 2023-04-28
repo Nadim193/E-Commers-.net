@@ -8,14 +8,22 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class SellerRepo : Repo, IRepo<Seller, string, Seller>
+    internal class SellerRepo : Repo, IRepo<Seller, string, bool>, IAuth<bool>, IChange
     {
-        public Seller Create(Seller obj)
+        public bool Authenticate(string sname, string password)
+        {
+            var data = db.Sellers.FirstOrDefault(u => u.Sname.Equals(sname) &&
+            u.Password.Equals(password));
+            if (data != null)
+                return true;
+            return false;
+        }
+        public bool Create(Seller obj)
         {
             db.Sellers.Add(obj);
             if (db.SaveChanges () > 0 )
-                return obj;
-            return null;
+                return true;
+            return false;
         }
 
         public bool Delete(string id)
@@ -35,13 +43,19 @@ namespace DAL.Repos
             return db.Sellers.Find(id);
         }
 
-        public Seller Update(Seller Obj)
+        public bool Update(Seller Obj)
         {
             var ex = Read(Obj.Sname);
             db.Entry(ex).CurrentValues.SetValues(Obj);
             if (db.SaveChanges() > 0 )
-                return Obj;
-            return null;
+                return true;
+            return false;
+        }
+        public bool ChangePassword(string Sname, string password)
+        {
+            var seller = Read(Sname);
+            seller.Password = password;
+            return db.SaveChanges() > 0;
         }
     }
 }

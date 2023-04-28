@@ -8,8 +8,16 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : Repo, IRepoUsers<User, int, string, decimal, User>
+    internal class UserRepo : Repo, IRepoUsers<User, int, string, decimal, bool>, IAuth<bool>
     {
+        public bool Authenticate(string uname, string password)
+        {
+            var data = db.Users.FirstOrDefault(u => u.uname.Equals(uname) &&
+            u.Password.Equals(password));
+            if (data != null)
+                return true;
+            return false;
+        }
         public bool Delete(int id)
         {
             var ex = GetAll(id);
@@ -33,12 +41,12 @@ namespace DAL.Repos
             return db.Users.Find(id);
         }
 
-        public User Created(User obj)
+        public bool Created(User obj)
         {
             db.Users.Add(obj);
             if (db.SaveChanges() > 0)
-                return obj;
-            return null;
+                return true;
+            return false;
         }
 
         public List<User> Search(string data)
@@ -46,13 +54,13 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public User Update(User Obj)
+        public bool Update(User Obj)
         {
             var ex = GetAll(Obj.Id);
             db.Entry(ex).CurrentValues.SetValues(Obj);
             if (db.SaveChanges() > 0)
-                return Obj;
-            return null;
+                return true;
+            return false;
         }
 
         public List<User> GetOrderProductDetails()
@@ -61,6 +69,11 @@ namespace DAL.Repos
         }
 
         public List<User> GetOrderProductDetails(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<User> GetProductsInCart(int id)
         {
             throw new NotImplementedException();
         }

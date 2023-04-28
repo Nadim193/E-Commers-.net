@@ -43,7 +43,6 @@ namespace BLL.Services
             {
                 c.CreateMap<Product, ProductOrderDetailsDTO>();
                 c.CreateMap<Order, OrderDTO>();
-/*                c.CreateMap<User, UserDTO>();*/
 
             });
             var mapper = new Mapper(cfg);

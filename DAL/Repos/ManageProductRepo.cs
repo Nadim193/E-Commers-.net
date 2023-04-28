@@ -75,5 +75,14 @@ namespace DAL.Repos
         {
             throw new NotImplementedException();
         }
+        public List<Product> GetProductsInCart(int userId)
+        {
+            var productsInCart = db.Carts
+                                    .Where(c => c.uid == userId)
+                                    .Select(c => c.product)
+                                    .ToList();
+
+            return productsInCart;
+        }
     }
 }

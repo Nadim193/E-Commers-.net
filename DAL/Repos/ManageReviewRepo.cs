@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class ManageReviewRepo : Repo, IRepo<Review, int, Review>
+    internal class ManageReviewRepo : Repo, IRepo<Review, int, bool>
     {
-        public Review Create(Review obj)
+        public bool Create(Review obj)
         {
             db.Reviews.Add(obj);
             if (db.SaveChanges() > 0)
-                return obj;
-            return null;
+                return true;
+            return false;
         }
 
         public bool Delete(int id)
@@ -35,13 +35,13 @@ namespace DAL.Repos
             return db.Reviews.Find(id);
         }
 
-        public Review Update(Review Obj)
+        public bool Update(Review Obj)
         {
             var ex = Read(Obj.Id);
             db.Entry(ex).CurrentValues.SetValues(Obj);
             if (db.SaveChanges() > 0)
-                return Obj;
-            return null;
+                return true;
+            return false;
         }
     }
 }

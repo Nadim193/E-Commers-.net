@@ -76,84 +76,13 @@ G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CoreCompileInputs.cache
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CopyComplete
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.dll
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.pdb
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\PcBuild.dll.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\PcBuild.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\PcBuild.pdb
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csc.exe
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csc.exe.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csc.rsp
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csi.exe
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csi.exe.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\csi.rsp
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.AppContext.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Console.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.IO.Compression.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Net.Http.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.ValueTuple.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\vbc.exe
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\vbc.exe.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\vbc.rsp
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\VBCSCompiler.exe
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\BLL.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\DAL.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\EntityFramework.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\EntityFramework.SqlServer.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\Newtonsoft.Json.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Net.Http.Formatting.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Web.Http.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Web.Http.WebHost.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\AutoMapper.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\BLL.pdb
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\DAL.pdb
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\DAL.dll.config
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\EntityFramework.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\EntityFramework.SqlServer.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\Newtonsoft.Json.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Net.Http.Formatting.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Web.Http.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\System.Web.Http.WebHost.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\bin\AutoMapper.xml
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.AssemblyReference.cache
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CoreCompileInputs.cache
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CopyComplete
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\obj\Debug\PcBuild.dll
-C:\Users\Nadim\Desktop\PcBuild\PcBuild\obj\Debug\PcBuild.pdb
+G:\net\PcBuild\PcBuild\bin\System.Web.Cors.dll
+G:\net\PcBuild\PcBuild\bin\System.Web.Http.Cors.dll
+G:\net\PcBuild\PcBuild\bin\System.Web.Http.Cors.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.csproj.AssemblyReference.cache
+D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.csproj.CoreCompileInputs.cache
+D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.pdb
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\PcBuild.dll.config
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\PcBuild.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\PcBuild.pdb
@@ -207,47 +136,80 @@ D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\roslyn\vbc.rsp
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\roslyn\VBCSCompiler.exe
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\roslyn\VBCSCompiler.exe.config
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\BLL.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Chessie.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\EntityFramework.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\EntityFramework.SqlServer.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\FSharp.Core.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Mdb.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Pdb.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Rocks.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Newtonsoft.Json.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Common.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Configuration.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Frameworks.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Packaging.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Versioning.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Paket.Core.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Buffers.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Memory.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Net.Http.Formatting.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Net.Http.WinHttpHandler.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Numerics.Vectors.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Cors.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.Cors.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.WebHost.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\AutoMapper.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\BLL.pdb
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.pdb
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.dll.config
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\BLL.dll.config
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Chessie.pdb
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Chessie.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\EntityFramework.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\EntityFramework.SqlServer.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\FSharp.Core.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.pdb
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Mdb.pdb
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Pdb.pdb
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Mono.Cecil.Rocks.pdb
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Newtonsoft.Json.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Common.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Configuration.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Frameworks.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Packaging.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\NuGet.Versioning.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Paket.Core.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Buffers.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Memory.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Net.Http.WinHttpHandler.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Numerics.Vectors.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Security.Cryptography.ProtectedData.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.Cors.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Net.Http.Formatting.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Http.WebHost.xml
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.pdb
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\DAL.dll.config
 D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\AutoMapper.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.csproj.AssemblyReference.cache
-D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.csproj.CoreCompileInputs.cache
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\cs\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\de\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\es\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\fr\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\it\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\ja\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\ko\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\pl\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\pt-BR\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\ru\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\tr\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\zh-Hans\FSharp.Core.resources.dll
+D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\zh-Hant\FSharp.Core.resources.dll
 D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.csproj.CopyComplete
-D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\obj\Debug\PcBuild.pdb
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Antlr3.Runtime.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Microsoft.Web.Infrastructure.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Helpers.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Mvc.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Optimization.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Razor.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.Deployment.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.Razor.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\WebGrease.dll
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\BLL.dll.config
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\Antlr3.Runtime.pdb
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Helpers.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Mvc.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Optimization.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.Razor.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.Deployment.xml
-D:\ASP.Net Work\E-Commers-.net\PcBuild\bin\System.Web.WebPages.Razor.xml

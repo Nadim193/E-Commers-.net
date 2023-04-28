@@ -51,3 +51,7 @@ D:\ASP.Net Work\E-Commers-.net\DAL\bin\Debug\Newtonsoft.Json.xml
 D:\ASP.Net Work\E-Commers-.net\DAL\bin\Debug\System.Web.Optimization.xml
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.FixAll.resources
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddFeedBackTable.resources
+D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddTokenTable.resources
+D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.fixTokenTable.resources
+D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.modyfiTokenTable.resources
