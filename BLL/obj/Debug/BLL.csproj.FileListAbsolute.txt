@@ -41,3 +41,18 @@ D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.dll
 D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.pdb
 D:\ASP.Net Work\E-Commers-.net\BLL\bin\Debug\BLL.dll.config
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\BLL.dll.config
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\BLL.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\BLL.pdb
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\AutoMapper.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\DAL.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\EntityFramework.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\DAL.pdb
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\DAL.dll.config
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\AutoMapper.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\bin\Debug\EntityFramework.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\obj\Debug\BLL.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\BLL\obj\Debug\BLL.pdb

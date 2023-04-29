@@ -11,6 +11,10 @@ namespace DAL
 {
     public  class DataAccessFactory
     {
+        public static IRepoZisan<Admin, int, string, decimal, bool> AdminData()
+        {
+            return new AdminRepo();
+        }
 
         public static IRepo<Seller , string, bool> SellerData()
         {

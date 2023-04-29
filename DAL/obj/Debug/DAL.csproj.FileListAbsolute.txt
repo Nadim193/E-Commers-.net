@@ -55,3 +55,31 @@ D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddFeedBackTable.res
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddTokenTable.resources
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.fixTokenTable.resources
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.modyfiTokenTable.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\DAL.dll.config
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\DAL.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\DAL.pdb
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\Antlr3.Runtime.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\EntityFramework.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\System.Web.Optimization.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\WebGrease.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\EntityFramework.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\bin\Debug\System.Web.Optimization.xml
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.FixAll.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddFeedBackTable.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddTokenTable.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.fixTokenTable.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.modyfiTokenTable.resources
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.dll
+C:\Users\pc\Source\Repos\E-Commers-.net\DAL\obj\Debug\DAL.pdb
+C:\Users\pc\source\repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.FixAll1.resources
+C:\Users\pc\source\repos\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.FixAll2.resources
