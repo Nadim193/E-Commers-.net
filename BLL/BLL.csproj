@@ -47,9 +47,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\AdminDTO.cs" />
+    <Compile Include="DTOs\AdminModeratorDTO.cs" />
     <Compile Include="DTOs\CartDTO.cs" />
     <Compile Include="DTOs\ChangePasswordDTO.cs" />
     <Compile Include="DTOs\FeedBackDTO.cs" />
+    <Compile Include="DTOs\ModeratorDTO.cs" />
+    <Compile Include="DTOs\ModeratorSalesReportDTO.cs" />
     <Compile Include="DTOs\OrderDTO.cs" />
     <Compile Include="DTOs\OrderProductDTO.cs" />
     <Compile Include="DTOs\ProductCartDTO.cs" />
@@ -60,6 +63,8 @@
     <Compile Include="DTOs\ProductSellerDTO.cs" />
     <Compile Include="DTOs\ReviewDTO.cs" />
     <Compile Include="DTOs\ReviewFeedBackDTO.cs" />
+    <Compile Include="DTOs\SalesReportDTO.cs" />
+    <Compile Include="DTOs\SalesReportReportedByDTO.cs" />
     <Compile Include="DTOs\SellerDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
@@ -75,8 +80,10 @@
     <Compile Include="Services\ManageReviewService.cs" />
     <Compile Include="Services\ManageUserOrderService.cs" />
     <Compile Include="Services\ManageUserService.cs" />
+    <Compile Include="Services\ModeratorService.cs" />
     <Compile Include="Services\OrderService.cs" />
     <Compile Include="Services\ProductService.cs" />
+    <Compile Include="Services\SalersReportService.cs" />
     <Compile Include="Services\SearchService.cs" />
     <Compile Include="Services\SellerService.cs" />
   </ItemGroup>

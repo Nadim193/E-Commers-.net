@@ -15,7 +15,14 @@ namespace DAL
         {
             return new AdminRepo();
         }
-
+        public static IRepoZisan<Moderator, int, string, decimal, bool> ModeratorData()
+        {
+            return new ModeratorRepo();
+        }
+        public static IRepo<SalesReport, int, bool> SalesReportData()
+        {
+            return new SalesReportRepo();
+        }
         public static IRepo<Seller , string, bool> SellerData()
         {
             return new SellerRepo();

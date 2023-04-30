@@ -24,6 +24,20 @@ namespace BLL.Services
             var mapped = mapper.Map<List<AdminDTO>>(data);
             return mapped;
         }
+        public static AdminModeratorDTO GetAdminAddedModerators(int id)
+        {
+            var data = DataAccessFactory.AdminData().GetAll(id);
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<Admin, AdminModeratorDTO>();
+                c.CreateMap<Moderator, ModeratorDTO>();
+
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<AdminModeratorDTO>(data);
+            return mapped;
+
+        }
 
         public static AdminDTO Get(int id)
         {

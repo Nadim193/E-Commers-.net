@@ -127,9 +127,12 @@
     <Compile Include="Repos\ManageProductRepo.cs" />
     <Compile Include="Repos\ManageReviewRepo.cs" />
     <Compile Include="Repos\ManageUserOrderRepo.cs" />
+    <Compile Include="Repos\ModeratorRepo.cs" />
+    <Compile Include="Repos\ModeratorSalesReportRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
     <Compile Include="Repos\ProductRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\SalesReportRepo.cs" />
     <Compile Include="Repos\SellerRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />

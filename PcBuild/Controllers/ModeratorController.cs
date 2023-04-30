@@ -9,15 +9,15 @@ using System.Web.Http;
 
 namespace PcBuild.Controllers
 {
-    public class ManageAdminController : ApiController
+    public class ModeratorController : ApiController
     {
         [HttpGet]
-        [Route("api/admin/get")]
-        public HttpResponseMessage AdminData()
+        [Route("api/moderator/get")]
+        public HttpResponseMessage ModeratorData()
         {
             try
             {
-                var data = ManageAdminService.Get();
+                var data = ManageModeratorService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
 
             }
@@ -27,12 +27,12 @@ namespace PcBuild.Controllers
             }
         }
         [HttpGet]
-        [Route("api/admin/get/{id}")]
-        public HttpResponseMessage AdminData(int id)
+        [Route("api/moderator/get/{id}")]
+        public HttpResponseMessage ModeratorData(int id)
         {
             try
             {
-                var data = ManageAdminService.Get(id);
+                var data = ManageModeratorService.Get(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
 
             }
@@ -42,12 +42,12 @@ namespace PcBuild.Controllers
             }
         }
         [HttpGet]
-        [Route("api/admin/get/{id}/moderator")]
-        public HttpResponseMessage AdminAddedModeratorData(int id)
+        [Route("api/moderator/get/{id}/salesreport")]
+        public HttpResponseMessage ModeratorSalesReportData(int id)
         {
             try
             {
-                var data = ManageAdminService.GetAdminAddedModerators(id);
+                var data = ManageModeratorService.GetwithSalesReport(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
 
             }
@@ -56,20 +56,34 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
+        //[HttpGet]
+        //[Route("api/moderator/{id}/salesreport")]
+        //public HttpResponseMessage ModeratorSalesReport(int id)
+        //{
+        //    try
+        //    {
+        //        var data = ManageModeratorService.GetwithSalesReport(id);
+        //        return Request.CreateResponse(HttpStatusCode.OK, data);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+        //    }
+        //}
         [HttpPost]
-        [Route("api/admin/insert")]
-        public HttpResponseMessage Insert(AdminDTO Admin)
+        [Route("api/moderator/insert")]
+        public HttpResponseMessage Insert(ModeratorDTO Moderator)
         {
             try
             {
-                var data = ManageAdminService.Create(Admin);
+                var data = ManageModeratorService.Create(Moderator);
                 if (data)
                 {
-                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted", Data = Admin });
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted", Data = Moderator });
                 }
                 else
                 {
-                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Not Inserted", Data = Admin });
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Not Inserted", Data = Moderator });
                 }
 
             }
@@ -79,19 +93,19 @@ namespace PcBuild.Controllers
             }
         }
         [HttpPost]
-        [Route("api/admin/update")]
-        public HttpResponseMessage Update(AdminDTO Admin)
+        [Route("api/moderator/update")]
+        public HttpResponseMessage Update(ModeratorDTO Moderator)
         {
             try
             {
-                var data = ManageAdminService.Update(Admin);
+                var data = ManageModeratorService.Update(Moderator);
                 if (data)
                 {
-                    return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Updated", Data = Admin });
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Updated", Data = Moderator });
                 }
                 else
                 {
-                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "Not Updated", Data = Admin });
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "Not Updated", Data = Moderator });
                 }
 
             }
@@ -101,13 +115,13 @@ namespace PcBuild.Controllers
             }
         }
         [HttpPost]
-        [Route("api/admin/delete/{id}")]
+        [Route("api/moderator/delete/{id}")]
         public HttpResponseMessage Delete(int id)
         {
             try
             {
 
-                return Request.CreateResponse(HttpStatusCode.OK, ManageAdminService.Delete(id));
+                return Request.CreateResponse(HttpStatusCode.OK, ManageModeratorService.Delete(id));
             }
             catch (Exception ex)
             {
