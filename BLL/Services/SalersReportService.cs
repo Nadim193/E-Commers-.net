@@ -48,7 +48,7 @@ namespace BLL.Services
 
                 c.CreateMap<SalesReport, SalesReportReportedBy>();
                 c.CreateMap<Moderator, ModeratorDTO>();
-                
+
 
             });
             var mapper = new Mapper(cfg);
@@ -85,6 +85,18 @@ namespace BLL.Services
         public static bool Delete(int id)
         {
             return DataAccessFactory.SalesReportData().Delete(id);
+        }
+        public static List<SalesReportDTO> SearchSalesReport(SearchModelDTO search)
+        {
+
+            var sales = DataAccessFactory.SalesReportSearch().Search(search.Search);
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<SalesReport, SalesReportDTO>());
+            var mapper = new Mapper(config);
+            var salesReports = mapper.Map<List<SalesReportDTO>>(sales);
+
+            return salesReports;
+
         }
     }
 }

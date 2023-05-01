@@ -75,6 +75,7 @@
     <Compile Include="Interfaces\IRepoOrder.cs" />
     <Compile Include="Interfaces\IRepoUsers.cs" />
     <Compile Include="Interfaces\IRepoZisan.cs" />
+    <Compile Include="Interfaces\ISearch.cs" />
     <Compile Include="Migrations\202304261903354_FixAll.cs" />
     <Compile Include="Migrations\202304261903354_FixAll.designer.cs">
       <DependentUpon>202304261903354_FixAll.cs</DependentUpon>

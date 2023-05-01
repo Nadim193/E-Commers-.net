@@ -123,6 +123,16 @@ namespace PcBuild.Controllers
 
             }
         }
+        [HttpPost]
+        [Route("api/salesReport/search")]
+        public HttpResponseMessage Search(SearchModelDTO search)
+        {
+            var list = SalesReportService.SearchSalesReport(search);
+
+            if (list != null) return Request.CreateResponse(HttpStatusCode.OK, list);
+            else return Request.CreateResponse(HttpStatusCode.OK, "Nothing Found");
+
+        }
 
     }
 }

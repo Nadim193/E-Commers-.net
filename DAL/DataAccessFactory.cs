@@ -23,6 +23,10 @@ namespace DAL
         {
             return new SalesReportRepo();
         }
+        public static ISearch<SalesReport> SalesReportSearch()
+        {
+            return new SalesReportRepo();
+        }
         public static IRepo<Seller , string, bool> SellerData()
         {
             return new SellerRepo();

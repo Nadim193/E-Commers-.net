@@ -65,6 +65,7 @@
     <Compile Include="DTOs\ReviewFeedBackDTO.cs" />
     <Compile Include="DTOs\SalesReportDTO.cs" />
     <Compile Include="DTOs\SalesReportReportedByDTO.cs" />
+    <Compile Include="DTOs\SearchModelDTO.cs" />
     <Compile Include="DTOs\SellerDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
