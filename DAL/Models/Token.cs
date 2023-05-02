@@ -18,7 +18,6 @@ namespace DAL.Models
         public DateTime CreatedAt { get; set; }
 
         public DateTime? ExpiredAt { get; set; }
-        [Required]
         public string SellerId { get; set; }
         public string UserId { get; set; }
     }

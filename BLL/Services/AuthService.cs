@@ -21,7 +21,9 @@ namespace BLL.Services
 
                 var token = new Token();
                 token.SellerId = sname;
+                token.UserId= null;
                 token.CreatedAt = DateTime.Now;
+                token.ExpiredAt= null;
                 token.TKey = Guid.NewGuid().ToString();
                 var ret = DataAccessFactory.TokenData().Create(token);
                 if (ret != null)
@@ -43,8 +45,10 @@ namespace BLL.Services
             {
 
                 var token = new Token();
+                token.SellerId = null;
                 token.UserId = uname;
                 token.CreatedAt = DateTime.Now;
+                token.ExpiredAt = null;
                 token.TKey = Guid.NewGuid().ToString();
                 var ret = DataAccessFactory.TokenData().Create(token);
                 if (ret != null)

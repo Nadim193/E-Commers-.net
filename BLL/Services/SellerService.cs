@@ -62,7 +62,7 @@ namespace BLL.Services
 
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<Seller>(seller);
-            var res = DataAccessFactory.SellerData().Create(mapped);
+            var res = DataAccessFactory.SellerData().Update(mapped);
             if (res) return true;
             return false;
         }

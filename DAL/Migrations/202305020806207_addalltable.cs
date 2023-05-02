@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class FixAll : DbMigration
+    public partial class addalltable : DbMigration
     {
         public override void Up()
         {
@@ -99,6 +99,19 @@
                 .Index(t => t.pid);
             
             CreateTable(
+                "dbo.FeedBacks",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Date = c.DateTime(nullable: false),
+                        ReviewFeedBack = c.String(nullable: false, maxLength: 150),
+                        rid = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Reviews", t => t.rid, cascadeDelete: true)
+                .Index(t => t.rid);
+            
+            CreateTable(
                 "dbo.Users",
                 c => new
                     {
@@ -126,6 +139,19 @@
                 .Index(t => t.Oid)
                 .Index(t => t.Uid);
             
+            CreateTable(
+                "dbo.Tokens",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        TKey = c.String(nullable: false, maxLength: 100),
+                        CreatedAt = c.DateTime(nullable: false),
+                        ExpiredAt = c.DateTime(),
+                        SellerId = c.String(),
+                        UserId = c.String(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
         }
         
         public override void Down()
@@ -136,6 +162,7 @@
             DropForeignKey("dbo.Reviews", "uid", "dbo.Users");
             DropForeignKey("dbo.Carts", "uid", "dbo.Users");
             DropForeignKey("dbo.Reviews", "pid", "dbo.Products");
+            DropForeignKey("dbo.FeedBacks", "rid", "dbo.Reviews");
             DropForeignKey("dbo.Orders", "SelleBy", "dbo.Sellers");
             DropForeignKey("dbo.ProductOrders", "pid", "dbo.Products");
             DropForeignKey("dbo.ProductOrders", "Oid", "dbo.Orders");
@@ -143,6 +170,7 @@
             DropForeignKey("dbo.Carts", "pid", "dbo.Products");
             DropIndex("dbo.User_Order", new[] { "Uid" });
             DropIndex("dbo.User_Order", new[] { "Oid" });
+            DropIndex("dbo.FeedBacks", new[] { "rid" });
             DropIndex("dbo.Reviews", new[] { "pid" });
             DropIndex("dbo.Reviews", new[] { "uid" });
             DropIndex("dbo.ProductOrders", new[] { "pid" });
@@ -152,8 +180,10 @@
             DropIndex("dbo.Products", new[] { "SelleingBy" });
             DropIndex("dbo.Carts", new[] { "pid" });
             DropIndex("dbo.Carts", new[] { "uid" });
+            DropTable("dbo.Tokens");
             DropTable("dbo.User_Order");
             DropTable("dbo.Users");
+            DropTable("dbo.FeedBacks");
             DropTable("dbo.Reviews");
             DropTable("dbo.Sellers");
             DropTable("dbo.ProductOrders");

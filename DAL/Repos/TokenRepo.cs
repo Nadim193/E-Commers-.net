@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TokenRepo : Repo, IRepo<Token, string, bool>
+    internal class TokenRepo : Repo, IRepo<Token, string, Token>
     {
-        public bool Create(Token obj)
+        public Token Create(Token obj)
         {
             db.Tokens.Add(obj);
             if (db.SaveChanges() > 0)
-                return true;
-            return false;
+                return obj;
+            return null;
         }
 
         public bool Delete(string id)
@@ -34,13 +34,13 @@ namespace DAL.Repos
             return db.Tokens.FirstOrDefault(t => t.TKey.Equals(id));
         }
 
-        public bool Update(Token Obj)
+        public Token Update(Token Obj)
         {
             var token = Read(Obj.TKey);
             db.Entry(token).CurrentValues.SetValues(Obj);
             if (db.SaveChanges() > 0) 
-            return true;
-            return false;
+            return Obj;
+            return null;
         }
     }
 }

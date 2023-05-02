@@ -57,7 +57,7 @@ namespace DAL
         {
             return new ManageFeedBackRepo();
         }
-        public static IRepo<Token, string, bool> TokenData()
+        public static IRepo<Token, string, Token> TokenData()
         {
             return new TokenRepo();
         }

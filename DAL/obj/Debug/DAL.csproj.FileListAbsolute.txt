@@ -55,3 +55,25 @@ D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddFeedBackTable.res
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.AddTokenTable.resources
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.fixTokenTable.resources
 D:\ASP.Net Work\E-Commers-.net\DAL\obj\Debug\DAL.Migrations.modyfiTokenTable.resources
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\DAL.dll.config
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\DAL.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\DAL.pdb
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\Antlr3.Runtime.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\EntityFramework.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\Newtonsoft.Json.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\System.Web.Optimization.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\WebGrease.dll
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\Antlr3.Runtime.pdb
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\EntityFramework.xml
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\Newtonsoft.Json.xml
+D:\ASP.Net Work\ASP.net Project\DAL\bin\Debug\System.Web.Optimization.xml
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.dll
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.pdb
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.Migrations.addalltable.resources
+D:\ASP.Net Work\ASP.net Project\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

@@ -74,25 +74,9 @@
     <Compile Include="Interfaces\IRepoCart.cs" />
     <Compile Include="Interfaces\IRepoOrder.cs" />
     <Compile Include="Interfaces\IRepoUsers.cs" />
-    <Compile Include="Migrations\202304261903354_FixAll.cs" />
-    <Compile Include="Migrations\202304261903354_FixAll.designer.cs">
-      <DependentUpon>202304261903354_FixAll.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304280810146_AddFeedBackTable.cs" />
-    <Compile Include="Migrations\202304280810146_AddFeedBackTable.designer.cs">
-      <DependentUpon>202304280810146_AddFeedBackTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304280958531_AddTokenTable.cs" />
-    <Compile Include="Migrations\202304280958531_AddTokenTable.designer.cs">
-      <DependentUpon>202304280958531_AddTokenTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304280959405_fixTokenTable.cs" />
-    <Compile Include="Migrations\202304280959405_fixTokenTable.designer.cs">
-      <DependentUpon>202304280959405_fixTokenTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304281008105_modyfiTokenTable.cs" />
-    <Compile Include="Migrations\202304281008105_modyfiTokenTable.designer.cs">
-      <DependentUpon>202304281008105_modyfiTokenTable.cs</DependentUpon>
+    <Compile Include="Migrations\202305020806207_addalltable.cs" />
+    <Compile Include="Migrations\202305020806207_addalltable.designer.cs">
+      <DependentUpon>202305020806207_addalltable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cart.cs" />
@@ -126,20 +110,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304261903354_FixAll.resx">
-      <DependentUpon>202304261903354_FixAll.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304280810146_AddFeedBackTable.resx">
-      <DependentUpon>202304280810146_AddFeedBackTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304280958531_AddTokenTable.resx">
-      <DependentUpon>202304280958531_AddTokenTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304280959405_fixTokenTable.resx">
-      <DependentUpon>202304280959405_fixTokenTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304281008105_modyfiTokenTable.resx">
-      <DependentUpon>202304281008105_modyfiTokenTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305020806207_addalltable.resx">
+      <DependentUpon>202305020806207_addalltable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

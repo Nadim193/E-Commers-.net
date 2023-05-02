@@ -24,9 +24,9 @@ namespace DAL.Models
         public string SelleBy { get; set; }
 
         public virtual Seller Seller { get; set; }
+        [ForeignKey("Product")]
         public int productby { get; set; }
-        [ForeignKey("productby")]
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
         public virtual ICollection<ProductOrder> ProductOrders { get; set; }
 
         public Order ()

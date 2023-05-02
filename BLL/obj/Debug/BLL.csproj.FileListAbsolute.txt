@@ -41,3 +41,18 @@ D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.dll
 D:\ASP.Net Work\E-Commers-.net\BLL\obj\Debug\BLL.pdb
 D:\ASP.Net Work\E-Commers-.net\BLL\bin\Debug\BLL.dll.config
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\BLL.dll.config
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\BLL.dll
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\BLL.pdb
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\AutoMapper.dll
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\DAL.dll
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\EntityFramework.dll
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\DAL.pdb
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\DAL.dll.config
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\AutoMapper.xml
+D:\ASP.Net Work\ASP.net Project\BLL\bin\Debug\EntityFramework.xml
+D:\ASP.Net Work\ASP.net Project\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\ASP.Net Work\ASP.net Project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\ASP.Net Work\ASP.net Project\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\ASP.Net Work\ASP.net Project\BLL\obj\Debug\BLL.dll
+D:\ASP.Net Work\ASP.net Project\BLL\obj\Debug\BLL.pdb
