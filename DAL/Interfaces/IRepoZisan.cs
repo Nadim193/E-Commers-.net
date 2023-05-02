@@ -10,13 +10,10 @@ namespace DAL.Interfaces
     {
         RET Created(Type obj);
 
-        List<Type> GetOrderProductDetails();
         Type GetAll(ID id);
         List<Type> GetAll();
-        List<Type> GetOrderProductDetails(ID id);
-        List<Type> GetProductsInCart(ID id);
+    
 
-        List<Type> Search(TEXT data);
         List<Type> Filter(Decimal min, Decimal max);
 
         RET Update(Type Obj);

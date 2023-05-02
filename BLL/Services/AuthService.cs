@@ -36,14 +36,14 @@ namespace BLL.Services
             }
             return null;
         }
-        public static TokenDTO UserAuthenticate(string uname, string password)
+        public static TokenDTO AdminAuthenticate(string sname, string password)
         {
-            var res = DataAccessFactory.UserAuthData().Authenticate(uname, password);
+            var res = DataAccessFactory.AdminAuthData().Authenticate(sname, password);
             if (res)
             {
 
                 var token = new Token();
-                token.UserId = uname;
+                token.SellerId = sname;
                 token.CreatedAt = DateTime.Now;
                 token.TKey = Guid.NewGuid().ToString();
                 var ret = DataAccessFactory.TokenData().Create(token);
@@ -63,13 +63,13 @@ namespace BLL.Services
         public static bool IsTokenValid(string tkey)
         {
             var extk = DataAccessFactory.TokenData().Read(tkey);
-            if (extk != null && extk.ExpiredAt == null) 
+            if (extk != null && extk.ExpiredAt == null)
             {
                 return true;
             }
             return false;
         }
-        public static bool Logout(string tkey) 
+        public static bool Logout(string tkey)
         {
             var extk = DataAccessFactory.TokenData().Read(tkey);
             extk.ExpiredAt = DateTime.Now;

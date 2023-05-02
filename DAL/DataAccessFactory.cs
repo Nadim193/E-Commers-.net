@@ -72,13 +72,17 @@ namespace DAL
         {
             return new ManageFeedBackRepo();
         }
-        public static IRepo<Token, string, bool> TokenData()
+        public static IRepo<Token, string, Token> TokenData()
         {
             return new TokenRepo();
         }
         public static IAuth<bool> AuthData()
         {
             return new SellerRepo();
+        }
+        public static IAuth<bool> AdminAuthData()
+        {
+            return new AdminRepo();
         }
         public static IAuth<bool> UserAuthData()
         {
